@@ -1,0 +1,5 @@
+F:/Users/PetukhovDG/CLionProjects/otus_cpp_4/cmake-build-debug/CMakeFiles/metafunctions.dir
+F:/Users/PetukhovDG/CLionProjects/otus_cpp_4/cmake-build-debug/CMakeFiles/sfinae.dir
+F:/Users/PetukhovDG/CLionProjects/otus_cpp_4/cmake-build-debug/CMakeFiles/sfinae_sort.dir
+F:/Users/PetukhovDG/CLionProjects/otus_cpp_4/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Users/PetukhovDG/CLionProjects/otus_cpp_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
