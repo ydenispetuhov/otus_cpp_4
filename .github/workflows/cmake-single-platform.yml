@@ -71,7 +71,7 @@ jobs:
         enable_jekyll: false
         allow_empty_commit: false
         force_orphan: true
-        publish_branch: all
+        publish_branch: gh-pages
 
     - name: create pakage
       run: cmake --build ${{github.workspace}}/build --target package
