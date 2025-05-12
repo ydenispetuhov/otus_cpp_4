@@ -59,7 +59,7 @@ jobs:
     - name: Doxygen Action
       uses: mattnotmitt/doxygen-action@v1.1.0
       with:
-          doxyfile-path: ./Doxyfile
+          doxyfile-path: ../../Doxyfile
           working-directory: .
     
     # Deploy the HTML documentation to GitHub Pages
@@ -71,7 +71,7 @@ jobs:
         enable_jekyll: false
         allow_empty_commit: false
         force_orphan: true
-        publish_branch: gh-pages
+        publish_branch: all
 
     - name: create pakage
       run: cmake --build ${{github.workspace}}/build --target package
