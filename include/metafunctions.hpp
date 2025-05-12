@@ -1,5 +1,6 @@
-#include <iostream>
-#include <type_traits>
+#ifndef META_H
+#define META_H
+
 #include <string>
 
 namespace meta {
@@ -29,16 +30,6 @@ namespace meta {
 	struct is_int<int> {
 		static const bool value = true;
 	};
-
-//	template <typename T>
-//	struct remove_const {
-//		using type = T;
-//	};
-//
-//	template <typename T>
-//	struct remove_const<const T> {
-//		using type = T;
-//	};
 
     template <typename T>
     struct type_is {
@@ -133,3 +124,5 @@ namespace meta {
     template <typename... Args>
     inline constexpr bool check_tuple_v = check_tuple<Args...>::value;
 }
+
+#endif // META_H

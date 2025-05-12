@@ -7,11 +7,9 @@
 #ifndef PRINT_IP_H
 #define PRINT_IP_H
 
-#include "metafunctions.h"
+#include "metafunctions.hpp"
 
-#include <type_traits>
 #include <iostream>
-#include <cstdint>
 #include <iterator>
 #include <algorithm>
 #include <tuple>
@@ -19,8 +17,6 @@
 
 
 namespace functions {
-
-//    using meta = metafunctions::meta;
 
 /**
  * Prints IP address
